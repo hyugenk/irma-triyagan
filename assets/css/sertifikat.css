@@ -1,4 +1,4 @@
-#downloadButton{
+.downloadButton{
     cursor: pointer;
     display: inline-block;
     font-size: 14px;
