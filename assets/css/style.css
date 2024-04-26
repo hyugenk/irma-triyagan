@@ -76,6 +76,13 @@ h6 {
   color: #c29239;
 }
 
+@media only screen and (max-width: 600px) {
+  #header .logo {
+    font-size: 20px; /* Mengurangi ukuran font untuk perangkat seluler */
+    padding-left: 20px; /* Mengurangi padding kiri untuk perangkat seluler */
+  }
+}
+
 #header .logo a {
   color: #fff;
 }
