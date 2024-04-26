@@ -1,0 +1,187 @@
+.container-wrapper {
+    display: flex; /* Membuat wrapper menjadi flex container */
+    justify-content: center; /* Mengatur konten di tengah secara horizontal */
+    align-items: center; /* Mengatur konten di tengah secara vertikal (opsional) */
+}
+
+.panel {
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+    width: 45vw;
+}
+
+.panel .panel-heading {
+    background: #535353;
+    padding: 15px;
+    border-radius: 0;
+}
+
+.panel .panel-heading .btn {
+    color: #fff;
+    background-color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 0;
+    transition: all 0.3s ease 0s;
+}
+
+.panel .panel-heading .btn:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.panel .panel-heading .form-horizontal .form-group {
+    margin: 0;
+}
+
+.panel .panel-heading .form-horizontal label {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.panel .panel-heading .form-horizontal .form-control {
+    display: inline-block;
+    width: 80px;
+    border: none;
+    border-radius: 0;
+}
+
+.panel .panel-heading .form-horizontal .form-control:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.panel .panel-body {
+    padding: 0;
+    border-radius: 0;
+}
+
+.panel .panel-body .table thead tr th {
+    color: #fff;
+    background: #424242;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 12px;
+    border-bottom: none;
+}
+
+.panel .panel-body .table thead tr th:nth-of-type(1) {
+    width: 120px;
+}
+
+.panel .panel-body .table thead tr th:nth-of-type(3) {
+    width: 50%;
+}
+
+.panel .panel-body .table tbody tr td {
+    color: #000000;
+    background: #d3d0d0;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 13px;
+    vertical-align: middle;
+    border-color: #e7e7e7;
+}
+
+.panel .panel-body .table tbody tr:nth-child(odd) td {
+    background: #f5f5f5;
+}
+
+.panel .panel-body .table tbody .action-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.panel .panel-body .table tbody .action-list li {
+    display: inline-block;
+}
+
+.panel .panel-body .table tbody .action-list li a {
+    color: #fff;
+    font-size: 13px;
+    line-height: 28px;
+    height: 28px;
+    width: 33px;
+    padding: 0;
+    border-radius: 0;
+    transition: all 0.3s ease 0s;
+}
+
+.panel .panel-body .table tbody .action-list li a:hover {
+    box-shadow: 0 0 5px #ddd;
+}
+
+.panel .panel-footer {
+    color: #fff;
+    background: #424242;
+    font-size: 16px;
+    line-height: 33px;
+    padding: 25px 15px;
+    border-radius: 0;
+}
+
+.pagination-outer {
+    text-align: center;
+}
+
+.pagination {
+    font-family: 'Poppins', sans-serif;
+    display: inline-flex;
+    position: relative;
+}
+
+.pagination li a.page-link {
+    color: #0bcff6;
+    background-color: transparent;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 34px;
+    height: 35px;
+    width: 85px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    transition: all 0.4s ease 0s;
+}
+
+.pagination li:first-child a.page-link,
+.pagination li:last-child a.page-link {
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.pagination li a.page-link:hover:before,
+.pagination li a.page-link:focus:before,
+.pagination li.active a.page-link:hover:before,
+.pagination li.active a.page-link:before {
+    top: 0;
+}
+
+.pagination li a.page-link:hover:after,
+.pagination li a.page-link:focus:after,
+.pagination li.active a.page-link:hover:after,
+.pagination li.active a.page-link:after {
+    transform: scale(0.8);
+}
+
+@media only screen and (max-width: 480px) {
+    .pagination {
+        font-size: 0;
+        display: inline-block;
+    }
+
+    .pagination li {
+        display: inline-block;
+        vertical-align: top;
+        margin: 10px 0;
+    }
+}
