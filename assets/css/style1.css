@@ -9,7 +9,14 @@
     padding: 0;
     border: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
-    width: 60vw;
+    width: 45vw; /* Ukuran lebar relatif menggunakan viewport width */
+}
+
+/* Penyesuaian untuk mode ponsel */
+@media only screen and (max-width: 767px) {
+    .panel {
+        width: 90vw; /* Mengurangi lebar panel pada mode ponsel */
+    }
 }
 
 .panel .panel-heading {
