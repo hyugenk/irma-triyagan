@@ -35,57 +35,56 @@ for (var i = 1; i <= 42; i++) {
             case 'downloadButton10':
                 imageId = '1-6Lc3LwH_trrWVn2ADxGkISe-ABMu06n';
                 break;
-                
             case 'downloadButton11':
-                imageId = '10Z5Z1v0F6q8I2J7zV5XJ4cV9h9Q5J3fY';
+                imageId = '1-gwlL2rYWEhNUteCtMevBW4HfiyXJWVX';
                 break;
             case 'downloadButton12':
-                imageId = '10a5Z1v0F6q8I2J7zV5XJ4cV9h9Q5J3fY';
+                imageId = '1-es8KlEYSAtb0nbLUkmdvWxhRZkfiFNF';
                 break;
             case 'downloadButton13':
-                imageId = '10b5Z1v0F6q8I2J7zV5XJ4cV9h9Q5J3fY';
+                imageId = '10MoEOTopxBdAUmowffojKXZ6a5MyvZc7';
                 break;
             case 'downloadButton14':
-                imageId = '10c5Z1v0F6q8I2J7zV5XJ4cV9h9Q5J3fY';
+                imageId = '113lI5sng0B6zwDi_OiCzymumBr38n60_';
                 break;
             case 'downloadButton15':
-                imageId = '10d5Z1v0F6q8I2J7zV5XJ4cV9h9Q5J3fY';
+                imageId = '1-aDEr_3cCMzanBfAbkRIZKqKJw7M9G1V';
                 break;
             case 'downloadButton16':
-                imageId = '10e5Z1v0F6q8I2J7zV5XJ4cV9h9Q5J3fY';
+                imageId = '1zpaBJ9wrnFgRwmR-wYFHxjtAJ4j2goVf';
                 break;
             case 'downloadButton17':
-                imageId = '10f5Z1v0F6q8I2J7zV5XJ4cV9h9Q5J3fY';
+                imageId = '1-FPjV570waPD3nFr-FxUJhNAowshe8uN';
                 break;
             case 'downloadButton18':
-                imageId = '10g5Z1v0F6q8I2J7zV5XJ4cV9h9Q5J3fY';
+                imageId = '105Q3c1R3bTBU_M6Ksla3C0qMZd4qP01Z';
                 break;
             case 'downloadButton19':
-                imageId = '10h5Z1v0F6q8I2J7zV5XJ4cV9h9Q5J3fY';
+                imageId = '1-k6CQvONgyn_fQbHNYjpT6_LSTY9c8He';
                 break;
             case 'downloadButton20':
-                imageId = '10i5Z1v0F6q8I2J7zV5XJ4cV9h9Q5J3fY';
+                imageId = '104BDw-1rA4Cc3yrLE9cJLTSTwOwHYztf';
                 break;
             case 'downloadButton21':
-                imageId = '10j5Z1v0F6q8I2J7zV5XJ4cV9h9Q5J3fY';
+                imageId = '10VMFYI4BW7f3n_SdntNdPGDzjsl82QQR';
                 break;
             case 'downloadButton22':
-                imageId = '10k5Z1v0F6q8I2J7zV5XJ4cV9h9Q5J3fY';
+                imageId = '1-7rlJB35whboi6nZWlhxs3H7JF84DHqJ';
                 break;
             case 'downloadButton23':
-                imageId = '10l5Z1v0F6q8I2J7zV5XJ4cV9h9Q5J3fY';
+                imageId = '1zqTHZz4YuLWtK7q1M2ETZh20WHZpeErN';
                 break;
             case 'downloadButton24':
-                imageId = '10m5Z1v0F6q8I2J7zV5XJ4cV9h9Q5J3fY';
+                imageId = '10RLTHIEMMOqC4iQJofi6HBfVjKgZq5So';
                 break;
             case 'downloadButton25':
-                imageId = '10n5Z1v0F6q8I2J7zV5XJ4cV9h9Q5J3fY';
+                imageId = '1-HTx5eKp2kR8BuJgArcV6_-vP1vVzqKH';
                 break;
             case 'downloadButton26':
-                imageId = '10o5Z1v0F6q8I2J7zV5XJ4cV9h9Q5J3fY';
+                imageId = '100L1ikXnfgwYbUt6oAn-Ri5Bi950H4IG';
                 break;
             case 'downloadButton27':
-                imageId = '10p5Z1v0F6q8I2J7zV5XJ4cV9h9Q5J3fY';
+                imageId = '1-u0WJk5O-nO8uZXsMptE7lZbI1Yi2-o_';
                 break;
             case 'downloadButton28':
                 imageId = '1zOs3QPifZjK3-R8_1GqQSVy9DolRt4Mu';
@@ -109,14 +108,31 @@ for (var i = 1; i <= 42; i++) {
                 imageId = '1znd7UDw8FQ32JhKg6ESrvnYhTp_oRjXo';
                 break;
             case 'downloadButton35':
-                imageId = '';
+                imageId = '1zWqz4d6UWCLHEON_Ov534O5pJZGxOrMG';
                 break;
             case 'downloadButton36':
-                imageId = '';
+                imageId = '1zWZxJhSDVDB2OU0LKaFw2xA56PPcoqnZ';
                 break;
             case 'downloadButton37':
-                imageId = '';
+                imageId = '10ikeLZdrrVJkDppMwI2w3pksI2BSsDKW';
                 break;
+            case 'downloadButton38':
+                imageId = '1zlOnU_iD40N3CMmXg5RpWknnJcSSlqQX';
+                break;
+            case 'downloadButton39':
+                imageId = '10yyXD1BWI1VC2l3cxVn9k7pubBzQwj8K';
+                break;
+            case 'downloadButton40':
+                imageId = '1zxllukZbpx0VVprQXZM6xlS3PK3ACaWu';
+                break;
+            case 'downloadButton41':
+                imageId = '1zvJfAJ1KoF-cxyqIh_tFtXk9zozn539U';
+                break;
+            case 'downloadButton42':
+                imageId = '1zDJ0Klt8c_HqToffa6Ddhwg6_XFwJgfi';
+                break;
+
+               
                 
 
 
