@@ -637,6 +637,13 @@ section {
   margin-bottom: 0;
 }
 
+@media (max-width: 768px) {
+  .services .description {
+    font-size: 12px; /* Mengurangi ukuran font untuk layar hp */
+    line-height: 24px; /* Menyesuaikan line-height untuk layar hp */
+  }
+}
+
 .services .icon-box:hover .title a,
 .services .icon-box:hover .description {
   color: #fff;
