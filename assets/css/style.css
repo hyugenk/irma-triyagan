@@ -772,10 +772,19 @@ section {
 }
 
 .portfolio .portfolio-item {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
   overflow: hidden;
 }
 
+@media (max-width: 576px) {
+  .portfolio .portfolio-item {
+    margin-bottom: 4px;
+    padding-left: 0; /* Menghilangkan margin kiri */
+    padding-right: 0; /* Menghilangkan margin kanan */
+  }
+}
 .portfolio .portfolio-item img {
   position: relative;
   top: 0;
