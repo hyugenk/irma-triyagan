@@ -1114,7 +1114,7 @@ section {
 .team .member .social a {
   transition: color 0.3s;
   color: #493c3e;
-  margin: 0 10px;
+  margin: 0 5px; /* Mengurangi margin agar lebih kecil */
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1129,9 +1129,25 @@ section {
 }
 
 .team .member .social i {
-  font-size: 18px;
+  font-size: 16px; /* Mengurangi ukuran ikon untuk hp */
   margin: 0 2px;
 }
+
+/* Media query untuk layar hp dengan lebar maksimum 768px */
+@media (max-width: 768px) {
+  .team .member .social {
+    height: 30px; /* Mengurangi tinggi elemen */
+  }
+
+  .team .member .social a {
+    margin: 0 3px; /* Mengurangi margin agar lebih kecil */
+  }
+
+  .team .member .social i {
+    font-size: 14px; /* Mengurangi ukuran ikon untuk hp */
+  }
+}
+
 
 .team .member .member-info {
   padding: 25px 15px;
@@ -1150,6 +1166,17 @@ section {
   font-weight: 400;
   color: #aaaaaa;
 }
+
+@media (max-width: 768px) {
+  .team .member .member-info h4 {
+    font-size: 16px; /* Ubah ukuran font untuk layar berukuran lebih kecil */
+  }
+
+  .team .member .member-info span {
+    font-size: 12px; /* Ubah ukuran font untuk layar berukuran lebih kecil */
+  }
+}
+
 
 .team .member .member-info p {
   font-style: italic;
