@@ -1063,27 +1063,42 @@
     </section><!-- End Contact Section -->
 
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <h3>IRMA TRIYAGAN</h3>
-      <p>Ikatan Remaja Masjid Nur-Hadi Triyagan</p>
-      <div class="social-links">
-        <a href="https://www.instagram.com/loronghijrah_/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
-        <a href="whatsapp://send?phone=6285877876317&text=Assalamualaikum..." class="whatsapp" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+    <footer id="footer">
+      <div class="container">
+        <h3>IRMA TRIYAGAN</h3>
+        <p>Ikatan Remaja Masjid Nur-Hadi Triyagan</p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/loronghijrah_/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+          <a href="whatsapp://send?phone=6285877876317&text=Assalamualaikum..." class="whatsapp" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+        </div>
+        <p id="visitorCount">Total Visitors: 0</p>
+        <!-- <button onclick="resetVisitorCount()">Reset Visitor Count</button> -->
+        <div class="copyright">
+          &copy; Copyright <strong><span>IRMA Triyagan</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by <a href="https://dahvision-agency.vercel.app/" target="_blank">DahVision Agency</a>
+        </div>
       </div>
-      <div class="copyright">
-        &copy; Copyright <strong><span>IRMA Triyagan</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        Designed by <a href="https://dahvision-agency.vercel.app/" target="_blank">DahVision Agency</a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+    </footer><!-- End Footer -->
+  
+    <script>
+      function updateVisitorCount() {
+          let visitorCount = localStorage.getItem('visitorCount') || 0;
+          document.getElementById('visitorCount').textContent = `Total Visitors: ${visitorCount}`;
+      }
 
+      function resetVisitorCount() {
+          localStorage.setItem('visitorCount', 0);
+          updateVisitorCount();
+      }
 
-
-
+      // Update visitor count when page loads
+      let visitorCount = localStorage.getItem('visitorCount') || 0;
+      visitorCount++;
+      localStorage.setItem('visitorCount', visitorCount);
+      updateVisitorCount();
+  </script>
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
