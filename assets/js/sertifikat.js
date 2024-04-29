@@ -132,12 +132,28 @@ for (var i = 1; i <= 42; i++) {
                 imageId = '1zDJ0Klt8c_HqToffa6Ddhwg6_XFwJgfi';
                 break;
 
+            // Tambahan 5
+            case 'downloadButton43':
+                imageId = '17hpE28MPnOiThc0pp4NqUDLAncnsCsi_';
+                break;
+            case 'downloadButton44':
+                imageId = '17gMTpzYoxiTK27yCueC1uqkcVZW7b4Zk';
+                break;
+            case 'downloadButton45':
+                imageId = '17tMOCT7ZAyMBAZwtK9lBQhlpj8YZW-rJ';
+                break;
+            case 'downloadButton46':
+                imageId = '17kQNv0kMR8i00IDBJxpARKw0llofFjW_';
+                break;
+            case 'downloadButton47':
+                imageId = '17vXOXqsdsrUz0-dfMknJMsniWHGQtfCo';
+                break;
                
                 
 
 
 
-            // Lanjutkan dengan cara yang sama untuk setiap tombol download
+            
             default:
                 break;
         }
