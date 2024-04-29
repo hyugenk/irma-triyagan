@@ -1,4 +1,4 @@
-for (var i = 1; i <= 42; i++) {
+for (var i = 1; i <= 47; i++) {
     var downloadButton = document.getElementById('downloadButton' + i);
     downloadButton.addEventListener('click', function() {
         var imageUrl = 'https://drive.google.com/uc?export=download&id=';
