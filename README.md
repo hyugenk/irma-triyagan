@@ -1,5 +1,5 @@
 # irma-triyagan
-Ikatan Remaja Masjid Triyagan Websitee
+Ikatan Remaja Masjid Triyagan Website
 
 
 ©2024
