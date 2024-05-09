@@ -1,4 +1,4 @@
-# irma-triyagan
+# IRMA Triyagan
 Ikatan Remaja Masjid Triyagan Website
 
 
